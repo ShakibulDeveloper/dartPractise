@@ -117,5 +117,64 @@ void main() {
     loop3++;
   } while (loop3 < 10);
 
+/* 
+
+  =============== DECISION MAKING ===========================
+
+*/
+
+  // if/else condition
+  var inClass = 12;
+
+  if (inClass > 5 && inClass <= 12) {
+    print("High Secondary Level");
+  } else if (inClass > 12) {
+    print("University");
+  } else if (inClass < 6 && inClass > 0) {
+    print("Primary Level");
+  } else {
+    print("Invalid");
+  }
+
+// switch condition
+  var grade = "A+";
+
+  switch (grade) {
+    case "A+":
+      {
+        print("Excellent");
+      }
+      break;
+
+    case "A":
+      {
+        print("Very Good");
+      }
+      break;
+
+    case "B":
+      {
+        print("Good");
+      }
+      break;
+
+    case "C":
+      {
+        print("Fair");
+      }
+      break;
+
+    case "D":
+      {
+        print("Poor");
+      }
+      break;
+
+    case "F":
+      {
+        print("Failed");
+      }
+      break;
+  }
 //dart end tag
 }
