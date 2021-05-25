@@ -1,6 +1,12 @@
 void main() {
   //dart starting tag
 
+/* 
+
+  =============== DART VARIABLES ===========================
+
+*/
+
   //variable types
 
   /* 
@@ -45,6 +51,71 @@ void main() {
   print(x + y - z);
   print((x * y) + z);
   print((x + y) / z);
+
+// we can use dynamic keyword instead of var
+
+  dynamic auth = "admin@gmail.com"; // dynamic work same as var keyword
+  print(auth);
+
+// we can use const or final keyword to fixed the value of a variable
+
+  final pi = 3.1416;
+
+  print(pi);
+
+  // or....
+
+  const password = 12345678;
+  print(password);
+
+// we can declare a variable inside "";
+  var myName = "Shakibul";
+  print("Your name is: $myName");
+
+// *dart operators are same like other programming lang.
+
+/* 
+
+  =============== DART LOOPS ===========================
+
+*/
+
+// for loop
+  for (var i = 0; i < 100; i++) {
+    print("$i hello world");
+  }
+
+  // loop continue
+  for (var start = 0; start < 11; start++) {
+    if (start == 5) {
+      continue; // loop will run just escaping 5th one
+    }
+
+    print(start);
+  }
+
+  // loop break
+  for (var breakLoop = 0; breakLoop < 11; breakLoop++) {
+    if (breakLoop == 6) {
+      break;
+    }
+
+    print(breakLoop);
+  }
+
+// while loop
+  var loop2 = 0;
+  while (loop2 < 10) {
+    print(loop2);
+    loop2++;
+  }
+
+// do while loop
+  var loop3 = 0;
+  do {
+    print(loop3);
+    loop3++;
+  } while (loop3 < 10);
 
 //dart end tag
 }
