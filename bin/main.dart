@@ -176,5 +176,73 @@ void main() {
       }
       break;
   }
+
+/* 
+
+  =============== DART LIST ===========================
+
+*/
+// //fixed list
+//   var fixedlist = new List(3);
+
+//   fixedlist[0] = "value1";
+//   fixedlist[1] = "value2";
+//   fixedlist[2] = "value3"; //upto 3 values can be store
+
+//   print(fixedlist);
+
+//   // growthable list
+//   var growlist = new List();
+
+//   growlist.add("value1");
+//   growlist.add("value2");
+//   growlist.add("value3");
+//   growlist.add("value4");
+//   growlist.add("value5");
+//   growlist.add("value6");// no limit
+//   //or
+//   growlist.addAll(["value1","value2","value3"]);
+
+//   print(growlist);
+
+//   // growthable list with insert
+//   var growlist1 = new List();
+
+//   growlist1.insert(0, "value1");
+//   growlist1.insert(1, "value2");
+//   growlist1.insert(2, "value3");
+//   growlist1.insert(3, "value4");
+//   //or
+//   growlist1.insertAll(0, ["value1","value2","value3"]);
+
+//   print(growlist1);
+
+//   // remove & removeAt
+//   var mylist = new List();
+
+//   mylist.add("A");
+//   mylist.add("B");
+//   mylist.add("C");
+//   mylist.add("D");
+
+//   mylist.remove("B"); // with value
+//   mylist.removeAt(1); // with index number
+
+//   print(mylist);
+
+//   // replace list item
+//   var relist = new List();
+
+//   relist.add("A");
+//   relist.add("B");
+//   relist.add("C");
+//   relist.add("D");
+//   relist.add("E");
+
+//   relist.replaceRange(1, 2, ["Bangladesh"]);
+//   relist.replaceRange(2, 3, ["Canada"]);
+
+//   print(relist);
+
 //dart end tag
 }
